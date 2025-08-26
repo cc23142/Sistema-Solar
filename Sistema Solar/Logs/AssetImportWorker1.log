@@ -415,3 +415,323 @@ Memory consumption went from 140.3 MB to 137.7 MB.
 Total: 6.452292 ms (FindLiveObjects: 0.402500 ms CreateObjectMapping: 0.256458 ms MarkObjects: 4.261083 ms  DeleteObjects: 1.531875 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d03f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.623 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.658 seconds
+Domain Reload Profiling: 1284ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (658ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5943 unused Assets / (2.9 MB). Loaded Objects now: 6659.
+Memory consumption went from 140.3 MB to 137.4 MB.
+Total: 7.256250 ms (FindLiveObjects: 0.432917 ms CreateObjectMapping: 0.545000 ms MarkObjects: 4.810208 ms  DeleteObjects: 1.467792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d03f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.618 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1268ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (648ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5943 unused Assets / (3.0 MB). Loaded Objects now: 6661.
+Memory consumption went from 140.3 MB to 137.2 MB.
+Total: 7.683625 ms (FindLiveObjects: 0.406583 ms CreateObjectMapping: 0.323250 ms MarkObjects: 5.057000 ms  DeleteObjects: 1.895500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 984.394374 seconds.
+  path: Assets/Textures/arielMap.jpg
+  artifactKey: Guid(b616b3f43d7bd42d3aab6c2fdc8f8719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/arielMap.jpg using Guid(b616b3f43d7bd42d3aab6c2fdc8f8719) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b926132564edd9475301d17ebe32c7c8') in 0.159907875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Textures/sunmap.jpg
+  artifactKey: Guid(83ead765829764ae7852025b85075491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sunmap.jpg using Guid(83ead765829764ae7852025b85075491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c98c45430ba9fc381f185fc2b10c9d7') in 0.004752292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/mirandaMap.jpg
+  artifactKey: Guid(7a56193c2ab834c1f949d9f1cbe063b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/mirandaMap.jpg using Guid(7a56193c2ab834c1f949d9f1cbe063b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74f816dbea89e85cfcd8919d94672ced') in 0.005176208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/space.jpg
+  artifactKey: Guid(4034b5c467e7044ef9cb932d9015af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/space.jpg using Guid(4034b5c467e7044ef9cb932d9015af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd92d26998c2a7943ff804e81d4637399') in 0.005525916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Textures/Io_flat_full.jpg
+  artifactKey: Guid(65a49b63ce15943beb0300ec9b5e5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Io_flat_full.jpg using Guid(65a49b63ce15943beb0300ec9b5e5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b01e88c0027d77459cfa1f8640489fb') in 0.005094417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/tritonMap.png
+  artifactKey: Guid(4eaf4bc38effd43739bccda3a5453285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/tritonMap.png using Guid(4eaf4bc38effd43739bccda3a5453285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f99e2e1fa543de744d9fbf1e8b6eb505') in 0.004904292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Textures/neptunemap.jpg
+  artifactKey: Guid(982eab339bb814e8ba7c2a56eb43e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/neptunemap.jpg using Guid(982eab339bb814e8ba7c2a56eb43e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02586b7c043f270b910af66bd2eace6d') in 0.004115875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/uranusmap.jpg
+  artifactKey: Guid(11171b9522cde43518d5bf042f7fb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/uranusmap.jpg using Guid(11171b9522cde43518d5bf042f7fb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a665cc514ed8a32a90876117ec3371a') in 0.004011709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/jupitermap.jpg
+  artifactKey: Guid(4db681d384d6f48899812195fd5c6dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/jupitermap.jpg using Guid(4db681d384d6f48899812195fd5c6dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f917819133dd889fcb127a173f5d7d7') in 0.005199375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/plutomap1k.jpg
+  artifactKey: Guid(da72e316d573445d4a2f82dde60a408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/plutomap1k.jpg using Guid(da72e316d573445d4a2f82dde60a408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e102234822c208b7d5d874ecfe02eddb') in 0.004381875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/callistoMap.jpg
+  artifactKey: Guid(42c10b1bbdb7243d8bc030f9067a149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/callistoMap.jpg using Guid(42c10b1bbdb7243d8bc030f9067a149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19a19114e53c2a97c1f16c2216e842b0') in 0.004902667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/titanMap.jpg
+  artifactKey: Guid(4bc38f7b89e64412a8571e9e60d8c570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/titanMap.jpg using Guid(4bc38f7b89e64412a8571e9e60d8c570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87985c11d20384f969e6626d9a507dc8') in 0.006934417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.221595 seconds.
+  path: Assets/Materials/arielMap.mat
+  artifactKey: Guid(a1cff862b20c8485e9e9062507ca28d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/arielMap.mat using Guid(a1cff862b20c8485e9e9062507ca28d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '385a076e14c33a4514ca751d5506b842') in 5.757050292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Materials/tritonMap.mat
+  artifactKey: Guid(d85c015b38f92461896b57de4e189984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tritonMap.mat using Guid(d85c015b38f92461896b57de4e189984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a71ca87ada6247686b3e1b6e369d2c63') in 0.008574042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/uranusmap.mat
+  artifactKey: Guid(b549ff74a15d4475d9155ec1da583191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/uranusmap.mat using Guid(b549ff74a15d4475d9155ec1da583191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12c5c4164af387177b5c2ea7be643b5b') in 0.0073565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/jupitermap.mat
+  artifactKey: Guid(5accc2f5773694d3baf73dd69c7c29ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/jupitermap.mat using Guid(5accc2f5773694d3baf73dd69c7c29ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '557ee146cd1d06df9fd9d85f3dd1b5a9') in 0.008011291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Materials/saturnmap.mat
+  artifactKey: Guid(14153f9393ff1432f9231e7df46a47a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/saturnmap.mat using Guid(14153f9393ff1432f9231e7df46a47a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09319737d300aa4767be704475d54474') in 0.007742208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Materials/mercurymap.mat
+  artifactKey: Guid(db6e06d67c6f541b792602ccf038173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/mercurymap.mat using Guid(db6e06d67c6f541b792602ccf038173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf745bb0a930d5b0ee62e6fbe987c04e') in 0.006649291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Materials/neptunemap.mat
+  artifactKey: Guid(10c624115d03c4cbaaea56d5d4dd5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neptunemap.mat using Guid(10c624115d03c4cbaaea56d5d4dd5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fe6f3cf1491ae3cc73a649c73793bd2') in 0.008510583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Materials/neptunemap 1.mat
+  artifactKey: Guid(2ea3eb4cc3a7e4dd4b9b0a1b1ce3949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neptunemap 1.mat using Guid(2ea3eb4cc3a7e4dd4b9b0a1b1ce3949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18061aafeea4ae4273ec8c2413c33278') in 0.007897583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Materials/Terra Material.mat
+  artifactKey: Guid(28ddf18130131421f8c069046463bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Terra Material.mat using Guid(28ddf18130131421f8c069046463bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0d389752353d6d5b5d1c134f78ed61a') in 0.007115959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Materials/Encélado.mat
+  artifactKey: Guid(8a958f881b7c04fffb36696e0427ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Encélado.mat using Guid(8a958f881b7c04fffb36696e0427ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a3599f9aa16bb02f50db76e47265a74') in 0.006229375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/Sol Material.mat
+  artifactKey: Guid(6ad37f480975d4bb985010192e468f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sol Material.mat using Guid(6ad37f480975d4bb985010192e468f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aadf8f40d48e12e8890de9399a4b62a5') in 4.600062166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.252916 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '257782a620645b90a1a87ce69519daaf') in 0.006989792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db197cde3899097fb35a5e04db69c105') in 0.000728208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aef1b5780e7730518d46eb0d392eb05') in 0.002094166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.229409 seconds.
+  path: Assets/Materials/venusmap 2.mat
+  artifactKey: Guid(e6fe8508a2a8644c782790ace0554c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/venusmap 2.mat using Guid(e6fe8508a2a8644c782790ace0554c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761947098b104f8c05284e5668a2c83c') in 0.062532625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
