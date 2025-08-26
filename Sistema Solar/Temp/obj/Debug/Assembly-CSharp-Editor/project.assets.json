@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/u23142/.nuget/packages/": {}
+    "/Users/u23143/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar/Assembly-CSharp-Editor.csproj",
+      "projectUniqueName": "/Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar/Assembly-CSharp-Editor.csproj",
       "projectName": "Assembly-CSharp-Editor",
-      "projectPath": "/Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar/Assembly-CSharp-Editor.csproj",
-      "packagesPath": "/Users/u23142/.nuget/packages/",
-      "outputPath": "/Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar/Temp/obj/Debug/Assembly-CSharp-Editor/",
+      "projectPath": "/Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar/Assembly-CSharp-Editor.csproj",
+      "packagesPath": "/Users/u23143/.nuget/packages/",
+      "outputPath": "/Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar/Temp/obj/Debug/Assembly-CSharp-Editor/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/u23142/.nuget/NuGet/NuGet.Config"
+        "/Users/u23143/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -51,8 +51,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "/Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar/Assembly-CSharp.csproj": {
-              "projectPath": "/Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar/Assembly-CSharp.csproj"
+            "/Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar/Assembly-CSharp.csproj": {
+              "projectPath": "/Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar/Assembly-CSharp.csproj"
             }
           }
         }
