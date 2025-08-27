@@ -18,19 +18,19 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar
+/Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52580
+49960
 -job-worker-count
 3
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: /Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar
-/Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar
+Successfully changed project path to: /Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar
+/Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/u23143/Documents/GitHub/Sistema-Sol
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8474806336]  Target information:
+Player connection [8590280768]  Target information:
 
-Player connection [8474806336]  * "[IP] 177.220.18.70 [Port] 0 [Flags] 2 [Guid] 1172639191 [EditorId] 1172639191 [Version] 1048832 [Id] OSXEditor(0,LAPA28.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8590280768]  * "[IP] 177.220.18.71 [Port] 0 [Flags] 2 [Guid] 992777865 [EditorId] 992777865 [Version] 1048832 [Id] OSXEditor(0,LAPA29.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8474806336] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8474806336] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8590280768] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8590280768] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -83,11 +83,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.80 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/u23143/Documents/GitHub/Sistema-Solar/Sistema Solar/Assets
+[Subsystems] Discovering subsystems at path /Users/u23142/Documents/GitHub/Sistema-Solar/Sistema Solar/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M1 (high power)
 Metal devices available: 1
@@ -98,50 +98,187 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001294 seconds.
-- Loaded All Assemblies, in  0.361 seconds
+Registered in 0.005918 seconds.
+- Loaded All Assemblies, in  0.347 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 93 ms
+Unable to list connected devices. 
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/xb/5z3cn8yd5j96xtk5qc24qgm1ncqwdk/T//adb.1791750578.log
+Server had pid: 72145
+--- adb starting (pid 72145) ---
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 Version 34.0.5-10900879
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 Version 34.0.5-10900879
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:804 device connected: 2-2
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:733 ignoring device usb:2-2: not an adb interface. (FindInterface)
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:804 device connected: 2-2
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:733 ignoring device usb:2-2: not an adb interface. (FindInterface)
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:804 device connected: 2-1
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:804 device connected: 2-1
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+08-27 08:44:36.092 72144 1345050 I adb     : auth.cpp:416 adb_auth_init...
+08-27 08:44:36.095 72144 1345050 I adb     : auth.cpp:152 loaded new key from '/Users/u23142/.android/adbkey' with fingerprint 3FD1F34D282A522D99B0561E37E4A958082F6472F8070A68BD1767994032686E
+08-27 08:44:36.615 72145 1345051 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+Environment Variables:
+AMPLITUDE_API_KEY_REDBUCKET_DEV = 46b8b46515e7632fc42a504b72e05fd0
+DEBUG_ENV_VAR = UnityHub
+XPC_FLAGS = 0x0
+__CFBundleIdentifier = com.unity3d.unityhub
+AMPLITUDE_API_KEY_GREENBUCKET_DEV = 3ded2a762163603391a425f688f990c8
+AMPLITUDE_TOKEN_REDBUCKET_DEV = U4PSN7S7PuYVRODivvdcFwbu8R6IHGqa
+HOME = /Users/u23142
+AMPLITUDE_API_KEY_GREENBUCKET_PROD = c86fea37a9e1d3f0878b96e15b111c7c
+SENTRY_ACCESS_TOKEN = 3df78d9e53f8456aa90fbae044ce1a6261421ab1d0014674bc2e933477289017
+AMPLITUDE_DEPLOYMENT_KEY_RED_BUCKET_DEV = client-wbjHYrmeSR87GmWOE7LDpf7sUySOIKHm
+AMPLITUDE_TOKEN_GREENBUCKET_PROD = ZpUcbAdZXJYzNSoHsAWtL_s_JppwWid9
+AMPLITUDE_API_KEY = 28f3cae0b33b8b3702120c9ed1a935aa
+XPC_SERVICE_NAME = application.com.unity3d.unityhub.439096.439103
+AMPLITUDE_API_KEY_STAGING = 83ee04fccc67e4fcc7dd527c4c6f1e21
+WOOTRIC_CLIENT_TOKEN = NPS-aa8be4c3
+USER = u23142
+MallocNanoZone = 0
+LOGNAME = u23142
+__CF_USER_TEXT_ENCODING = 0x6ACBF1B2:0x0:0x47
+AMPLITUDE_API_KEY_YELLOWBUCKET_DEV = 48835b4d1f5e342aefe5f016324d296a
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.NApXPoI8LT/Listeners
+AMPLITUDE_API_KEY_YELLOWBUCKET_PROD = e03a9bbe92dc38a88cdb068d24c65b46
+AMPLITUDE_TOKEN_REDBUCKET_PROD = jTIgKs5KTZOjiqEEVdZFbgo_VRhABduL
+AMPLITUDE_TOKEN_YELLOWBUCKET_PROD = UYDQtPOw83dIfVy3SrW5oMyo7ru4PRkV
+COMMAND_MODE = unix2003
+TMPDIR = /var/folders/xb/5z3cn8yd5j96xtk5qc24qgm1ncqwdk/T/
+AMPLITUDE_TOKEN_GREENBUCKET_DEV = 84H2gMm_FJzhr3mBaX1lM1JVukmCM7d9
+AMPLITUDE_TOKEN_YELLOWBUCKET_DEV = wKi8foVigDditGFvmZewRFWsEbX9Y0YO
+SHELL = /bin/bash
+AMPLITUDE_API_KEY_REDBUCKET_PROD = ca12bb461ea96f9bdf5df4ded7d52994
+AMPLITUDE_DEPLOYMENT_KEY_RED_BUCKET_PROD = client-zH8Y7OK1i331EKuG77C6UxN8ygcM6LzS
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+
+
+stderr[
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/xb/5z3cn8yd5j96xtk5qc24qgm1ncqwdk/T//adb.1791750578.log
+Server had pid: 72145
+--- adb starting (pid 72145) ---
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 Version 34.0.5-10900879
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+08-27 08:44:36.070 72144 1345050 I adb     : main.cpp:63 
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 Version 34.0.5-10900879
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 Installed as /Applications/Unity/Hub/Editor/6000.0.35f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 Running on Darwin 24.3.0 (arm64)
+08-27 08:44:36.070 72145 1345051 I adb     : main.cpp:63 
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:921 libusb hotplug thread started
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:804 device connected: 2-2
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:733 ignoring device usb:2-2: not an adb interface. (FindInterface)
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:804 device connected: 2-2
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:733 ignoring device usb:2-2: not an adb interface. (FindInterface)
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:804 device connected: 2-1
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:928 libusb hotplug: device arrived
+08-27 08:44:36.092 72145 1345062 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:804 device connected: 2-1
+08-27 08:44:36.092 72144 1345061 I adb     : usb_libusb.cpp:733 ignoring device usb:2-1: not an adb interface. (FindInterface)
+08-27 08:44:36.092 72144 1345050 I adb     : auth.cpp:416 adb_auth_init...
+08-27 08:44:36.095 72144 1345050 I adb     : auth.cpp:152 loaded new key from '/Users/u23142/.android/adbkey' with fingerprint 3FD1F34D282A522D99B0561E37E4A958082F6472F8070A68BD1767994032686E
+08-27 08:44:36.615 72145 1345051 F adb     : main.cpp:165 could not install *smartsocket* listener: Address already in use
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon
+]
+stdout[
+
+]
+exit code: 1
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00017] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg, System.Text.Encoding inputEncoding) [0x0000c] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <b5ea4232ea9e4e1cb4eabf38769a7d9f>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:ScanSync ()
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[])
+UnityEditor.Android.TargetExtension:OnLoad ()
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules () (at /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs:126)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Modules/ModuleManager.cs Line: 126)
+
+Android Extension - Scanning For ADB Devices 809 ms
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.407 seconds
-Domain Reload Profiling: 768ms
-	BeginReloadAssembly (134ms)
+- Finished resetting the current domain, in  1.110 seconds
+Domain Reload Profiling: 1457ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (148ms)
-		LoadAssemblies (135ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (98ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (143ms)
-				TypeCache.ScanAssembly (130ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (147ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (407ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1110ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (370ms)
+		SetupLoadedEditorAssemblies (1072ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (169ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (101ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			InitializePlatformSupportModulesInManaged (900ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,588 +287,338 @@ Domain Reload Profiling: 768ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.554 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.564 seconds
-Domain Reload Profiling: 1118ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.530 seconds
+Domain Reload Profiling: 1079ms
+	BeginReloadAssembly (104ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (232ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (382ms)
+		LoadAssemblies (251ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (141ms)
-			BuildScriptInfoCaches (28ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (29ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (565ms)
+	FinalizeReload (530ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (438ms)
+		SetupLoadedEditorAssemblies (401ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (282ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5947 unused Assets / (2.8 MB). Loaded Objects now: 6633.
-Memory consumption went from 152.2 MB to 149.4 MB.
-Total: 6.995292 ms (FindLiveObjects: 0.400292 ms CreateObjectMapping: 0.304042 ms MarkObjects: 4.448083 ms  DeleteObjects: 1.841666 ms)
+Unloading 5979 unused Assets / (9.5 MB). Loaded Objects now: 6599.
+Memory consumption went from 149.6 MB to 140.1 MB.
+Total: 7.941333 ms (FindLiveObjects: 0.369208 ms CreateObjectMapping: 0.195292 ms MarkObjects: 4.001666 ms  DeleteObjects: 3.374500 ms)
 
 ========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (4.7 MB). Loaded Objects now: 6599.
+Memory consumption went from 123.2 MB to 118.5 MB.
+Total: 5.686000 ms (FindLiveObjects: 0.196333 ms CreateObjectMapping: 0.095292 ms MarkObjects: 3.960500 ms  DeleteObjects: 1.433417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
 Received Import Request.
-  Time since last request: 277839.707043 seconds.
+  Time since last request: 74205.089504 seconds.
   path: Assets/InputSystem_Actions.inputactions
   artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02e5b530d5b44d961131ffba578cd945') in 0.021510541 seconds
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02e5b530d5b44d961131ffba578cd945') in 0.024781542 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x330ccb000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.621 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.616 seconds
-Domain Reload Profiling: 1239ms
-	BeginReloadAssembly (199ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (81ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (359ms)
-		LoadAssemblies (240ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (149ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (616ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (422ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (246ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5943 unused Assets / (2.9 MB). Loaded Objects now: 6651.
-Memory consumption went from 143.4 MB to 140.6 MB.
-Total: 7.992167 ms (FindLiveObjects: 0.584083 ms CreateObjectMapping: 0.316625 ms MarkObjects: 5.395333 ms  DeleteObjects: 1.695625 ms)
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.002452333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x16d03f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.750 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.028 seconds
-Domain Reload Profiling: 1781ms
-	BeginReloadAssembly (192ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (87ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (471ms)
-		LoadAssemblies (287ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (236ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (209ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1029ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (692ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (157ms)
-			ProcessInitializeOnLoadAttributes (450ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5943 unused Assets / (2.3 MB). Loaded Objects now: 6653.
-Memory consumption went from 140.3 MB to 138.0 MB.
-Total: 7.656083 ms (FindLiveObjects: 0.661417 ms CreateObjectMapping: 0.293834 ms MarkObjects: 5.184583 ms  DeleteObjects: 1.515458 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x16d03f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.573 seconds
+Thread 0x31978b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.446 seconds
 Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.718 seconds
-Domain Reload Profiling: 1293ms
-	BeginReloadAssembly (170ms)
+- Finished resetting the current domain, in  0.523 seconds
+Domain Reload Profiling: 971ms
+	BeginReloadAssembly (121ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (66ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (227ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (185ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (718ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (523ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (355ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (341ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5943 unused Assets / (3.2 MB). Loaded Objects now: 6655.
-Memory consumption went from 140.3 MB to 137.0 MB.
-Total: 6.905584 ms (FindLiveObjects: 0.522750 ms CreateObjectMapping: 0.365750 ms MarkObjects: 4.374459 ms  DeleteObjects: 1.642042 ms)
+Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5974 unused Assets / (9.4 MB). Loaded Objects now: 6618.
+Memory consumption went from 150.2 MB to 140.8 MB.
+Total: 8.321958 ms (FindLiveObjects: 0.353417 ms CreateObjectMapping: 0.199958 ms MarkObjects: 4.204875 ms  DeleteObjects: 3.562834 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x16d03f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.657 seconds
+Thread 0x17ff8b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.562 seconds
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.633 seconds
-Domain Reload Profiling: 1292ms
-	BeginReloadAssembly (229ms)
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1151ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (362ms)
-		LoadAssemblies (289ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (239ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
+		AnalyzeDomain (138ms)
 			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (633ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (587ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (452ms)
+		SetupLoadedEditorAssemblies (427ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (98ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (75ms)
 			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5943 unused Assets / (2.6 MB). Loaded Objects now: 6657.
-Memory consumption went from 140.3 MB to 137.7 MB.
-Total: 6.452292 ms (FindLiveObjects: 0.402500 ms CreateObjectMapping: 0.256458 ms MarkObjects: 4.261083 ms  DeleteObjects: 1.531875 ms)
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5974 unused Assets / (7.8 MB). Loaded Objects now: 6620.
+Memory consumption went from 146.8 MB to 139.0 MB.
+Total: 10.704250 ms (FindLiveObjects: 0.458459 ms CreateObjectMapping: 0.310958 ms MarkObjects: 5.306500 ms  DeleteObjects: 4.627875 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x16d03f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.623 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Thread 0x31a507000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.524 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.658 seconds
-Domain Reload Profiling: 1284ms
-	BeginReloadAssembly (205ms)
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1103ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (102ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
-		LoadAssemblies (231ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (209ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (15ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (132ms)
+			BuildScriptInfoCaches (115ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (658ms)
+	FinalizeReload (576ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (468ms)
+		SetupLoadedEditorAssemblies (421ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (314ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (289ms)
 			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5943 unused Assets / (2.9 MB). Loaded Objects now: 6659.
-Memory consumption went from 140.3 MB to 137.4 MB.
-Total: 7.256250 ms (FindLiveObjects: 0.432917 ms CreateObjectMapping: 0.545000 ms MarkObjects: 4.810208 ms  DeleteObjects: 1.467792 ms)
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5974 unused Assets / (6.9 MB). Loaded Objects now: 6622.
+Memory consumption went from 145.6 MB to 138.7 MB.
+Total: 10.651500 ms (FindLiveObjects: 0.425875 ms CreateObjectMapping: 0.287000 ms MarkObjects: 5.212084 ms  DeleteObjects: 4.726209 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x16d03f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.618 seconds
+Thread 0x16b477000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.526 seconds
 Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.647 seconds
-Domain Reload Profiling: 1268ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1159ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (226ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (217ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
-			TypeCache.Refresh (15ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (179ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (648ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (631ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (469ms)
+		SetupLoadedEditorAssemblies (468ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (309ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5943 unused Assets / (3.0 MB). Loaded Objects now: 6661.
-Memory consumption went from 140.3 MB to 137.2 MB.
-Total: 7.683625 ms (FindLiveObjects: 0.406583 ms CreateObjectMapping: 0.323250 ms MarkObjects: 5.057000 ms  DeleteObjects: 1.895500 ms)
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5974 unused Assets / (6.3 MB). Loaded Objects now: 6624.
+Memory consumption went from 144.2 MB to 137.9 MB.
+Total: 10.221375 ms (FindLiveObjects: 0.504875 ms CreateObjectMapping: 0.375334 ms MarkObjects: 5.067959 ms  DeleteObjects: 4.272166 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 984.394374 seconds.
-  path: Assets/Textures/arielMap.jpg
-  artifactKey: Guid(b616b3f43d7bd42d3aab6c2fdc8f8719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/arielMap.jpg using Guid(b616b3f43d7bd42d3aab6c2fdc8f8719) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b926132564edd9475301d17ebe32c7c8') in 0.159907875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16b477000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (113ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5974 unused Assets / (6.4 MB). Loaded Objects now: 6626.
+Memory consumption went from 142.9 MB to 136.5 MB.
+Total: 9.605250 ms (FindLiveObjects: 0.385042 ms CreateObjectMapping: 0.198625 ms MarkObjects: 4.491792 ms  DeleteObjects: 4.529208 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Textures/sunmap.jpg
-  artifactKey: Guid(83ead765829764ae7852025b85075491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/sunmap.jpg using Guid(83ead765829764ae7852025b85075491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c98c45430ba9fc381f185fc2b10c9d7') in 0.004752292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Textures/mirandaMap.jpg
-  artifactKey: Guid(7a56193c2ab834c1f949d9f1cbe063b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/mirandaMap.jpg using Guid(7a56193c2ab834c1f949d9f1cbe063b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74f816dbea89e85cfcd8919d94672ced') in 0.005176208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Textures/space.jpg
-  artifactKey: Guid(4034b5c467e7044ef9cb932d9015af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/space.jpg using Guid(4034b5c467e7044ef9cb932d9015af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd92d26998c2a7943ff804e81d4637399') in 0.005525916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Textures/Io_flat_full.jpg
-  artifactKey: Guid(65a49b63ce15943beb0300ec9b5e5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Io_flat_full.jpg using Guid(65a49b63ce15943beb0300ec9b5e5afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b01e88c0027d77459cfa1f8640489fb') in 0.005094417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Textures/tritonMap.png
-  artifactKey: Guid(4eaf4bc38effd43739bccda3a5453285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/tritonMap.png using Guid(4eaf4bc38effd43739bccda3a5453285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f99e2e1fa543de744d9fbf1e8b6eb505') in 0.004904292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Textures/neptunemap.jpg
-  artifactKey: Guid(982eab339bb814e8ba7c2a56eb43e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/neptunemap.jpg using Guid(982eab339bb814e8ba7c2a56eb43e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02586b7c043f270b910af66bd2eace6d') in 0.004115875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Textures/uranusmap.jpg
-  artifactKey: Guid(11171b9522cde43518d5bf042f7fb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/uranusmap.jpg using Guid(11171b9522cde43518d5bf042f7fb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a665cc514ed8a32a90876117ec3371a') in 0.004011709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Textures/jupitermap.jpg
-  artifactKey: Guid(4db681d384d6f48899812195fd5c6dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/jupitermap.jpg using Guid(4db681d384d6f48899812195fd5c6dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f917819133dd889fcb127a173f5d7d7') in 0.005199375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Textures/plutomap1k.jpg
-  artifactKey: Guid(da72e316d573445d4a2f82dde60a408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/plutomap1k.jpg using Guid(da72e316d573445d4a2f82dde60a408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e102234822c208b7d5d874ecfe02eddb') in 0.004381875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Textures/callistoMap.jpg
-  artifactKey: Guid(42c10b1bbdb7243d8bc030f9067a149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/callistoMap.jpg using Guid(42c10b1bbdb7243d8bc030f9067a149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19a19114e53c2a97c1f16c2216e842b0') in 0.004902667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Textures/titanMap.jpg
-  artifactKey: Guid(4bc38f7b89e64412a8571e9e60d8c570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/titanMap.jpg using Guid(4bc38f7b89e64412a8571e9e60d8c570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87985c11d20384f969e6626d9a507dc8') in 0.006934417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.221595 seconds.
-  path: Assets/Materials/arielMap.mat
-  artifactKey: Guid(a1cff862b20c8485e9e9062507ca28d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/arielMap.mat using Guid(a1cff862b20c8485e9e9062507ca28d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '385a076e14c33a4514ca751d5506b842') in 5.757050292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Materials/tritonMap.mat
-  artifactKey: Guid(d85c015b38f92461896b57de4e189984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/tritonMap.mat using Guid(d85c015b38f92461896b57de4e189984) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a71ca87ada6247686b3e1b6e369d2c63') in 0.008574042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Materials/uranusmap.mat
-  artifactKey: Guid(b549ff74a15d4475d9155ec1da583191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/uranusmap.mat using Guid(b549ff74a15d4475d9155ec1da583191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12c5c4164af387177b5c2ea7be643b5b') in 0.0073565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Materials/jupitermap.mat
-  artifactKey: Guid(5accc2f5773694d3baf73dd69c7c29ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/jupitermap.mat using Guid(5accc2f5773694d3baf73dd69c7c29ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '557ee146cd1d06df9fd9d85f3dd1b5a9') in 0.008011291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Materials/saturnmap.mat
-  artifactKey: Guid(14153f9393ff1432f9231e7df46a47a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/saturnmap.mat using Guid(14153f9393ff1432f9231e7df46a47a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09319737d300aa4767be704475d54474') in 0.007742208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Materials/mercurymap.mat
-  artifactKey: Guid(db6e06d67c6f541b792602ccf038173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/mercurymap.mat using Guid(db6e06d67c6f541b792602ccf038173c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf745bb0a930d5b0ee62e6fbe987c04e') in 0.006649291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Materials/neptunemap.mat
-  artifactKey: Guid(10c624115d03c4cbaaea56d5d4dd5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/neptunemap.mat using Guid(10c624115d03c4cbaaea56d5d4dd5b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fe6f3cf1491ae3cc73a649c73793bd2') in 0.008510583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Materials/neptunemap 1.mat
-  artifactKey: Guid(2ea3eb4cc3a7e4dd4b9b0a1b1ce3949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/neptunemap 1.mat using Guid(2ea3eb4cc3a7e4dd4b9b0a1b1ce3949d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18061aafeea4ae4273ec8c2413c33278') in 0.007897583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Materials/Terra Material.mat
-  artifactKey: Guid(28ddf18130131421f8c069046463bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Terra Material.mat using Guid(28ddf18130131421f8c069046463bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0d389752353d6d5b5d1c134f78ed61a') in 0.007115959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Materials/Encélado.mat
-  artifactKey: Guid(8a958f881b7c04fffb36696e0427ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Encélado.mat using Guid(8a958f881b7c04fffb36696e0427ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a3599f9aa16bb02f50db76e47265a74') in 0.006229375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Materials/Sol Material.mat
-  artifactKey: Guid(6ad37f480975d4bb985010192e468f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Sol Material.mat using Guid(6ad37f480975d4bb985010192e468f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aadf8f40d48e12e8890de9399a4b62a5') in 4.600062166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.252916 seconds.
-  path: Assets/Settings/Mobile_Renderer.asset
-  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '257782a620645b90a1a87ce69519daaf') in 0.006989792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Settings/PC_RPAsset.asset
-  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db197cde3899097fb35a5e04db69c105') in 0.000728208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aef1b5780e7730518d46eb0d392eb05') in 0.002094166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 194.229409 seconds.
-  path: Assets/Materials/venusmap 2.mat
-  artifactKey: Guid(e6fe8508a2a8644c782790ace0554c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/venusmap 2.mat using Guid(e6fe8508a2a8644c782790ace0554c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761947098b104f8c05284e5668a2c83c') in 0.062532625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
+Prepare: number of updated asset objects reloaded= 0
